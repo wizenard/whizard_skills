@@ -1,0 +1,4 @@
+interface:
+  display_name: "GSAP Animation"
+  short_description: "Create professional-grade JavaScript animations with GSAP — scroll effects, SVG, text, timelines, and more"
+  default_prompt: "Help me create an animation using GSAP"
