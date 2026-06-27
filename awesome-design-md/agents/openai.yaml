@@ -1,0 +1,4 @@
+interface:
+  display_name: "Awesome Design MD"
+  short_description: "DESIGN.md for brand-aligned UI generation"
+  default_prompt: "Use $awesome-design-md to help me select and integrate a DESIGN.md file for generating consistent UI"
