@@ -207,6 +207,47 @@ Use $matt-pocock-engineering to explain /improve-codebase-architecture
 
 ---
 
+### [ui-layouts](./ui-layouts/)
+
+Generate creative, animated React components using the [UI-Layouts](https://github.com/ui-layouts/uilayouts) component library. 80+ production-ready components with Tailwind CSS and Framer Motion.
+
+#### What It Does
+
+Provides a catalog of copy-paste React components for building visually rich, animated websites. Components span visual effects, animations, forms, overlays, 3D visuals, layouts, cards, media galleries, navigation, and code display.
+
+#### Features
+
+- **80+ Components**: Visual effects, animation, forms, overlays, 3D, layout, cards, media, navigation, code
+- **Copy-Paste Ready**: Self-contained components, no CLI installer needed
+- **Tailwind + Framer Motion**: Modern React styling and animation stack
+- **Light/Dark Mode**: Built-in theming via CSS variables
+- **Fully Customizable**: className props, CSS variables, component-specific options
+
+#### Included Files
+
+| File | Purpose |
+|------|---------|
+| `SKILL.md` | Main instructions, setup guide, component patterns |
+| `references/components.md` | Complete categorized catalog of 80+ components |
+
+#### Use Cases
+
+```
+# Create animated buttons
+Use $ui-layouts to help me create creative animated buttons
+
+# Add visual effects to a page
+Use $ui-layouts to add sparkle effects and mesh gradients
+
+# Build a carousel component
+Use $ui-layouts to create a smooth image carousel
+
+# Create a scroll animation
+Use $ui-layouts to build a sticky scroll section
+```
+
+---
+
 ## Installation
 
 Clone into your skills directory:
@@ -224,6 +265,7 @@ cp -r /tmp/whizard_skills/awesome-design-md ~/.codex/skills/
 cp -r /tmp/whizard_skills/humanizer ~/.codex/skills/
 cp -r /tmp/whizard_skills/ponytail ~/.codex/skills/
 cp -r /tmp/whizard_skills/rtk ~/.codex/skills/
+cp -r /tmp/whizard_skills/ui-layouts ~/.codex/skills/
 ```
 
 ## License

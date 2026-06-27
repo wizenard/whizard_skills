@@ -207,6 +207,47 @@ Use $matt-pocock-engineering to show me the alignment workflow
 
 ---
 
+### [ui-layouts](./ui-layouts/)
+
+使用 [UI-Layouts](https://github.com/ui-layouts/uilayouts) 组件库生成创意动画 React 组件。80+ 生产就绪组件，基于 Tailwind CSS 和 Framer Motion。
+
+#### 功能说明
+
+提供即用型 React 组件目录，用于构建视觉丰富、带动画的网站。组件涵盖视觉特效、动画、表单、弹层、3D 视觉、布局、卡片、媒体画廊、导航和代码展示。
+
+#### 特性
+
+- **80+ 组件**：视觉特效、动画、表单、弹层、3D、布局、卡片、媒体、导航、代码
+- **即用型**：自包含组件，无需 CLI 安装器
+- **Tailwind + Framer Motion**：现代 React 样式和动画技术栈
+- **明暗模式**：通过 CSS 变量内置主题支持
+- **完全可定制**：className props、CSS 变量、组件特定选项
+
+#### 文件结构
+
+| 文件 | 用途 |
+|------|------|
+| `SKILL.md` | 主指令、设置指南、组件模式 |
+| `references/components.md` | 80+ 组件的完整分类目录 |
+
+#### 使用示例
+
+```
+# 创建动画按钮
+Use $ui-layouts to help me create creative animated buttons
+
+# 为页面添加视觉特效
+Use $ui-layouts to add sparkle effects and mesh gradients
+
+# 构建轮播组件
+Use $ui-layouts to create a smooth image carousel
+
+# 创建滚动动画
+Use $ui-layouts to build a sticky scroll section
+```
+
+---
+
 ## 安装方法
 
 克隆到你的技能目录：
@@ -224,6 +265,7 @@ cp -r /tmp/whizard_skills/awesome-design-md ~/.codex/skills/
 cp -r /tmp/whizard_skills/humanizer ~/.codex/skills/
 cp -r /tmp/whizard_skills/ponytail ~/.codex/skills/
 cp -r /tmp/whizard_skills/rtk ~/.codex/skills/
+cp -r /tmp/whizard_skills/ui-layouts ~/.codex/skills/
 ```
 
 ## 许可证
