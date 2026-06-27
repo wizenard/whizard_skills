@@ -98,6 +98,42 @@ Use $humanizer to remove AI patterns from this article: [text]
 
 ---
 
+### [ponytail](./ponytail/)
+
+Makes AI agents write less code by enforcing YAGNI principles. Based on [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) (60k+ stars).
+
+#### What It Does
+
+Injects "write less code" rules into AI agents. Before writing code, agents must ask: Does this need to exist? Already in codebase? Stdlib does it? One line? Results in ~54% less code, ~20% cheaper, ~27% faster.
+
+#### Features
+
+- **YAGNI Enforcement**: Forces agents to check if code already exists before writing
+- **Minimal Solutions**: One-liner when possible, stdlib when available
+- **16+ Agent Support**: Claude Code, Codex, Cursor, Windsurf, Cline, GitHub Copilot, and more
+- **Built-in Commands**: `/ponytail` (intensity), `/ponytail-review` (audit), `/ponytail-gain` (scoreboard)
+
+#### Included Files
+
+| File | Purpose |
+|------|---------|
+| `SKILL.md` | Main instructions, YAGNI rules, installation guide |
+
+#### Use Cases
+
+```
+# Reduce code bloat
+Use $ponytail to write minimal code for this feature
+
+# Review over-engineering
+Use $ponytail-review to audit this diff
+
+# Check impact
+Use $ponytail-gain to see code/cost/speed savings
+```
+
+---
+
 ## Installation
 
 Clone into your skills directory:
@@ -113,6 +149,7 @@ git clone https://github.com/wizenard/whizard_skills.git ~/.config/opencode/skil
 git clone https://github.com/wizenard/whizard_skills.git /tmp/whizard_skills
 cp -r /tmp/whizard_skills/awesome-design-md ~/.codex/skills/
 cp -r /tmp/whizard_skills/humanizer ~/.codex/skills/
+cp -r /tmp/whizard_skills/ponytail ~/.codex/skills/
 ```
 
 ## License

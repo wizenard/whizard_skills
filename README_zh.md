@@ -98,6 +98,42 @@ Use $humanizer to remove AI patterns from this article: [text]
 
 ---
 
+### [ponytail](./ponytail/)
+
+让 AI 代理写更少的代码，强制执行 YAGNI 原则。基于 [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail)（60k+ stars）。
+
+#### 功能说明
+
+向 AI 代理注入"少写代码"规则。在写代码前，代理必须问：这东西需要存在吗？代码库里已经有了？标准库能搞定？一行能搞定？结果：代码量减少 ~54%，成本降低 ~20%，速度提升 ~27%。
+
+#### 特性
+
+- **YAGNI 强制执行**：强制代理在写代码前检查是否已存在
+- **最小化解决方案**：能一行就一行，能用标准库就用标准库
+- **16+ 代理支持**：Claude Code、Codex、Cursor、Windsurf、Cline、GitHub Copilot 等
+- **内置命令**：`/ponytail`（强度）、`/ponytail-review`（审计）、`/ponytail-gain`（记分板）
+
+#### 文件结构
+
+| 文件 | 用途 |
+|------|------|
+| `SKILL.md` | 主指令、YAGNI 规则、安装指南 |
+
+#### 使用示例
+
+```
+# 减少代码膨胀
+Use $ponytail to write minimal code for this feature
+
+# 审查过度工程
+Use $ponytail-review to audit this diff
+
+# 查看效果
+Use $ponytail-gain to see code/cost/speed savings
+```
+
+---
+
 ## 安装方法
 
 克隆到你的技能目录：
@@ -113,6 +149,7 @@ git clone https://github.com/wizenard/whizard_skills.git ~/.config/opencode/skil
 git clone https://github.com/wizenard/whizard_skills.git /tmp/whizard_skills
 cp -r /tmp/whizard_skills/awesome-design-md ~/.codex/skills/
 cp -r /tmp/whizard_skills/humanizer ~/.codex/skills/
+cp -r /tmp/whizard_skills/ponytail ~/.codex/skills/
 ```
 
 ## 许可证
