@@ -1,0 +1,4 @@
+interface:
+  display_name: "pixel2style2pixel"
+  short_description: "Image-to-image translation via StyleGAN encoding — face frontalization, super-resolution, sketch/segmentation synthesis"
+  default_prompt: "Help me use the pSp framework for image-to-image translation"
