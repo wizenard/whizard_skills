@@ -2,12 +2,12 @@
 
 <img src="https://img.shields.io/badge/Whizard-Skills-6366f1?style=for-the-badge&logo=sparkles&logoColor=white" alt="Whizard Skills">
 
-### AI 编程代理技能合集
+### Skills Collection for AI Coding Agents
 
-为 **Codex · Claude Code · OpenCode** 等 AI 编程工具提供专业技能
+Professional skills for **Codex · Claude Code · OpenCode** and other AI coding tools
 
-[![English](https://img.shields.io/badge/English-blue?style=flat-square)](README_en.md)
-[![中文](https://img.shields.io/badge/中文-当前-red?style=flat-square&labelColor=dc2626)](README.md)
+[![English](https://img.shields.io/badge/English-current-blue?style=flat-square&labelColor=2563eb)](README_en.md)
+[![中文](https://img.shields.io/badge/中文-red?style=flat-square)](README.md)
 
 </div>
 
@@ -15,7 +15,7 @@
 
 <div align="center">
 
-## ✨ 技能一览
+## ✨ Skills Overview
 
 </div>
 
@@ -25,24 +25,24 @@
 
 ### 🎨 [awesome-design-md](./awesome-design-md/)
 
-> 利用 73+ 品牌设计系统生成一致的、符合品牌风格的 UI
+> Generate consistent, brand-aligned UI using 73+ design systems
 
-**特性**
-- Stripe、Apple、Tesla 等 73+ 品牌
-- 暗色 UI、极简、大胆、电影感等风格
-- 完整目录索引 + 集成工作流
+**Features**
+- Stripe, Apple, Tesla and 73+ brands
+- Dark UI, Minimal, Bold, Cinematic styles
+- Full catalog + integration workflow
 
 </td>
 <td width="50%" valign="top">
 
 ### ✍️ [humanizer](./humanizer/)
 
-> 去除 AI 生成文本的痕迹，让内容更自然、更人性化
+> Remove AI writing patterns, make text sound natural and human
 
-**特性**
-- 检测 33 种 AI 写作模式
-- 声音校准，匹配你的个人风格
-- 两轮重写 + 最终审计
+**Features**
+- Detect 33 AI writing patterns
+- Voice calibration for your style
+- Two-pass rewrite + final audit
 
 </td>
 </tr>
@@ -51,24 +51,24 @@
 
 ### 🪡 [ponytail](./ponytail/)
 
-> 强制执行 YAGNI 原则，让 AI 代理写更少的代码
+> Enforce YAGNI principles, make AI agents write less code
 
-**特性**
-- 代码量减少 ~54%
-- 成本降低 ~20%，速度提升 ~27%
-- 16+ AI 工具支持
+**Features**
+- ~54% less code
+- ~20% cheaper, ~27% faster
+- 16+ AI tool support
 
 </td>
 <td width="50%" valign="top">
 
 ### ⚡ [rtk](./rtk/)
 
-> CLI 代理工具，LLM token 消耗降低 60-90%
+> CLI proxy reducing LLM token consumption by 60-90%
 
-**特性**
-- git、cargo、docker 等紧凑输出
-- 14+ AI 工具支持
-- 四大优化策略
+**Features**
+- Compact output for git, cargo, docker
+- 14+ AI tool support
+- Four optimization strategies
 
 </td>
 </tr>
@@ -77,24 +77,24 @@
 
 ### 🏗️ [matt-pocock-engineering](./matt-pocock-engineering/)
 
-> Matt Pocock 工程技能摘要，专业的 AI 辅助开发
+> Matt Pocock's engineering skills for professional AI-assisted dev
 
-**特性**
-- 17+ 技能覆盖
-- 对齐、TDD、代码设计
-- 一目了然的命令速查表
+**Features**
+- 17+ skills covered
+- Alignment, TDD, code design
+- Quick reference cheat sheet
 
 </td>
 <td width="50%" valign="top">
 
 ### 🎭 [ui-layouts](./ui-layouts/)
 
-> 80+ 创意动画 React 组件，基于 Tailwind + Framer Motion
+> 80+ creative animated React components with Tailwind + Framer Motion
 
-**特性**
-- 即用型组件，无需安装器
-- 明暗模式、完全可定制
-- 视觉特效、动画、表单、3D 等
+**Features**
+- Copy-paste, no installer needed
+- Light/dark mode, fully customizable
+- Visual effects, animations, 3D, etc.
 
 </td>
 </tr>
@@ -104,12 +104,12 @@
 
 <div align="center">
 
-## 🚀 快速安装
+## 🚀 Quick Install
 
 </div>
 
 ```bash
-# 一键克隆所有技能（Codex / Claude Code）
+# Clone all skills (Codex / Claude Code)
 git clone https://github.com/wizenard/whizard_skills.git ~/.codex/skills
 
 # OpenCode
@@ -117,12 +117,12 @@ git clone https://github.com/wizenard/whizard_skills.git ~/.config/opencode/skil
 ```
 
 <details>
-<summary><b>📦 只安装特定技能</b></summary>
+<summary><b>📦 Install specific skills only</b></summary>
 
 ```bash
 git clone https://github.com/wizenard/whizard_skills.git /tmp/whizard_skills
 
-# 选择你需要的技能复制
+# Copy the skills you need
 cp -r /tmp/whizard_skills/awesome-design-md ~/.codex/skills/
 cp -r /tmp/whizard_skills/humanizer ~/.codex/skills/
 cp -r /tmp/whizard_skills/ponytail ~/.codex/skills/
@@ -137,33 +137,33 @@ cp -r /tmp/whizard_skills/ui-layouts ~/.codex/skills/
 
 <div align="center">
 
-## 💡 使用示例
+## 💡 Usage Examples
 
 </div>
 
 <table>
 <tr>
-<td><b>🎨 设计系统</b></td>
+<td><b>🎨 Design System</b></td>
 <td><code>Use $awesome-design-md to help me build a landing page like Stripe</code></td>
 </tr>
 <tr>
-<td><b>✍️ 文本人性化</b></td>
+<td><b>✍️ Humanize Text</b></td>
 <td><code>Use $humanizer to rewrite this AI-generated text</code></td>
 </tr>
 <tr>
-<td><b>🪡 精简代码</b></td>
+<td><b>🪡 Write Less Code</b></td>
 <td><code>Use $ponytail to write minimal code for this feature</code></td>
 </tr>
 <tr>
-<td><b>⚡ 优化命令</b></td>
+<td><b>⚡ Optimize Commands</b></td>
 <td><code>Use $rtk to optimize my command output</code></td>
 </tr>
 <tr>
-<td><b>🏗️ 工程实践</b></td>
+<td><b>🏗️ Engineering</b></td>
 <td><code>Use $matt-pocock-engineering to show me the TDD workflow</code></td>
 </tr>
 <tr>
-<td><b>🎭 动画组件</b></td>
+<td><b>🎭 Animated Components</b></td>
 <td><code>Use $ui-layouts to create creative animated buttons</code></td>
 </tr>
 </table>
@@ -172,7 +172,7 @@ cp -r /tmp/whizard_skills/ui-layouts ~/.codex/skills/
 
 <div align="center">
 
-## 📄 许可证
+## 📄 License
 
 MIT License © [wizenard](https://github.com/wizenard)
 
