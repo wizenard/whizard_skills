@@ -1,6 +1,15 @@
+<div align="center">
+
 # Whizard Skills
 
 A collection of skills for AI coding agents (Codex, Claude Code, OpenCode).
+
+[![English](https://img.shields.io/badge/English-blue?style=for-the-badge)](README.md)
+[![中文](https://img.shields.io/badge/中文-red?style=for-the-badge)](README_zh.md)
+
+</div>
+
+---
 
 ## Skills
 
