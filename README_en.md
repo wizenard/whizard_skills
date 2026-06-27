@@ -1,100 +1,122 @@
 <div align="center">
 
-<img src="https://img.shields.io/badge/Whizard-Skills-6366f1?style=for-the-badge&logo=sparkles&logoColor=white" alt="Whizard Skills">
+<!-- Animated Header -->
+<img src="https://img.shields.io/badge/Whizard-Skills-purple?style=for-the-badge&logo=sparkles&logoColor=white&color=7c3aed" alt="badge">
 
-### Skills Collection for AI Coding Agents
+<h1>Whizard Skills</h1>
 
-Professional skills for **Codex · Claude Code · OpenCode** and other AI coding tools
+<p>
+  <img src="https://img.shields.io/badge/Codex-ready-blue?style=flat-square&logo=openai&logoColor=white" alt="Codex">
+  <img src="https://img.shields.io/badge/Claude_Code-ready-orange?style=flat-square&logo=anthropic&logoColor=white" alt="Claude">
+  <img src="https://img.shields.io/badge/OpenCode-ready-green?style=flat-square&logo=terminal&logoColor=white" alt="OpenCode">
+</p>
 
-[![English](https://img.shields.io/badge/English-current-blue?style=flat-square&labelColor=2563eb)](README_en.md)
-[![中文](https://img.shields.io/badge/中文-red?style=flat-square)](README.md)
+<p>
+  <a href="README.md"><img src="https://img.shields.io/badge/中文-red?style=for-the-badge" alt="中文"></a>
+  <a href="README_en.md"><img src="https://img.shields.io/badge/English-当前-blue?style=for-the-badge&labelColor=2563eb" alt="English"></a>
+</p>
+
+<br>
+
+<!-- Decorative Divider -->
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
 
 </div>
 
----
-
-<div align="center">
-
-## ✨ Skills Overview
-
-</div>
+## ✨ Skills Collection
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td align="center" width="33%">
 
-### 🎨 [awesome-design-md](./awesome-design-md/)
+### 🎨 awesome-design-md
 
-> Generate consistent, brand-aligned UI using 73+ design systems
+**73+ Brand Design Systems**
 
-**Features**
-- Stripe, Apple, Tesla and 73+ brands
-- Dark UI, Minimal, Bold, Cinematic styles
-- Full catalog + integration workflow
+Stripe · Apple · Tesla · Spotify
 
-</td>
-<td width="50%" valign="top">
+---
 
-### ✍️ [humanizer](./humanizer/)
+DESIGN.md files from 73+ brands to generate consistent, brand-aligned UI with AI agents.
 
-> Remove AI writing patterns, make text sound natural and human
-
-**Features**
-- Detect 33 AI writing patterns
-- Voice calibration for your style
-- Two-pass rewrite + final audit
+[`View Skill`](./awesome-design-md/) · [`Brand Catalog`](./awesome-design-md/references/collection-catalog.md)
 
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+<td align="center" width="33%">
 
-### 🪡 [ponytail](./ponytail/)
+### ✍️ humanizer
 
-> Enforce YAGNI principles, make AI agents write less code
+**33 AI Patterns Detected**
 
-**Features**
-- ~54% less code
-- ~20% cheaper, ~27% faster
-- 16+ AI tool support
+Natural · Human · Undetectable
+
+---
+
+Scan text for 33 AI writing patterns and rewrite. Voice calibration to match your personal style.
+
+[`View Skill`](./humanizer/) · [`Pattern Examples`](./humanizer/references/pattern-examples.md)
 
 </td>
-<td width="50%" valign="top">
+<td align="center" width="33%">
 
-### ⚡ [rtk](./rtk/)
+### 🪡 ponytail
 
-> CLI proxy reducing LLM token consumption by 60-90%
+**Code -54%**
 
-**Features**
-- Compact output for git, cargo, docker
-- 14+ AI tool support
-- Four optimization strategies
+YAGNI · Minimal · Fast
+
+---
+
+Enforce YAGNI principles. AI agents write less code, 20% cheaper, 27% faster.
+
+[`View Skill`](./ponytail/)
 
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td align="center" width="33%">
 
-### 🏗️ [matt-pocock-engineering](./matt-pocock-engineering/)
+### ⚡ rtk
 
-> Matt Pocock's engineering skills for professional AI-assisted dev
+**Tokens -60~90%**
 
-**Features**
-- 17+ skills covered
-- Alignment, TDD, code design
-- Quick reference cheat sheet
+Compact · Optimized · Quick
+
+---
+
+CLI proxy that rewrites commands to compact format. Supports git, cargo, docker and 14+ tools.
+
+[`View Skill`](./rtk/)
 
 </td>
-<td width="50%" valign="top">
+<td align="center" width="33%">
 
-### 🎭 [ui-layouts](./ui-layouts/)
+### 🏗️ matt-pocock-engineering
 
-> 80+ creative animated React components with Tailwind + Framer Motion
+**17+ Engineering Skills**
 
-**Features**
-- Copy-paste, no installer needed
-- Light/dark mode, fully customizable
-- Visual effects, animations, 3D, etc.
+Alignment · TDD · Design
+
+---
+
+Matt Pocock's engineering skills for professional AI-assisted development.
+
+[`View Skill`](./matt-pocock-engineering/)
+
+</td>
+<td align="center" width="33%">
+
+### 🎭 ui-layouts
+
+**80+ Creative Components**
+
+Animation · Visual · Interactive
+
+---
+
+React components with Tailwind + Framer Motion. Copy-paste animated buttons, carousels, effects.
+
+[`View Skill`](./ui-layouts/) · [`Component Catalog`](./ui-layouts/references/components.md)
 
 </td>
 </tr>
@@ -102,24 +124,24 @@ Professional skills for **Codex · Claude Code · OpenCode** and other AI coding
 
 ---
 
-<div align="center">
-
 ## 🚀 Quick Install
 
-</div>
+<div align="center">
 
 ```bash
-# Clone all skills (Codex / Claude Code)
+# Install all skills at once
 git clone https://github.com/wizenard/whizard_skills.git ~/.codex/skills
-
-# OpenCode
-git clone https://github.com/wizenard/whizard_skills.git ~/.config/opencode/skills
 ```
+
+</div>
 
 <details>
 <summary><b>📦 Install specific skills only</b></summary>
 
+<br>
+
 ```bash
+# Clone the repo
 git clone https://github.com/wizenard/whizard_skills.git /tmp/whizard_skills
 
 # Copy the skills you need
@@ -135,36 +157,68 @@ cp -r /tmp/whizard_skills/ui-layouts ~/.codex/skills/
 
 ---
 
-<div align="center">
-
 ## 💡 Usage Examples
-
-</div>
 
 <table>
 <tr>
-<td><b>🎨 Design System</b></td>
-<td><code>Use $awesome-design-md to help me build a landing page like Stripe</code></td>
+<td width="25%"><b>🎨 Design System</b></td>
+<td width="75%">
+
+```
+Use $awesome-design-md to help me build a landing page like Stripe
+```
+
+</td>
 </tr>
 <tr>
 <td><b>✍️ Humanize Text</b></td>
-<td><code>Use $humanizer to rewrite this AI-generated text</code></td>
+<td>
+
+```
+Use $humanizer to rewrite this AI-generated text to sound more natural
+```
+
+</td>
 </tr>
 <tr>
 <td><b>🪡 Write Less Code</b></td>
-<td><code>Use $ponytail to write minimal code for this feature</code></td>
+<td>
+
+```
+Use $ponytail to write minimal code for this feature
+```
+
+</td>
 </tr>
 <tr>
 <td><b>⚡ Optimize Commands</b></td>
-<td><code>Use $rtk to optimize my command output</code></td>
+<td>
+
+```
+Use $rtk to optimize my command output
+```
+
+</td>
 </tr>
 <tr>
 <td><b>🏗️ Engineering</b></td>
-<td><code>Use $matt-pocock-engineering to show me the TDD workflow</code></td>
+<td>
+
+```
+Use $matt-pocock-engineering to show me the TDD workflow
+```
+
+</td>
 </tr>
 <tr>
 <td><b>🎭 Animated Components</b></td>
-<td><code>Use $ui-layouts to create creative animated buttons</code></td>
+<td>
+
+```
+Use $ui-layouts to create creative animated buttons
+```
+
+</td>
 </tr>
 </table>
 
@@ -172,8 +226,31 @@ cp -r /tmp/whizard_skills/ui-layouts ~/.codex/skills/
 
 <div align="center">
 
-## 📄 License
+### 📊 Stats
+
+<table>
+<tr>
+<td align="center"><b>6</b><br>Skills</td>
+<td align="center"><b>73+</b><br>Brand Systems</td>
+<td align="center"><b>80+</b><br>React Components</td>
+<td align="center"><b>33</b><br>AI Patterns</td>
+</tr>
+</table>
+
+---
+
+<br>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
+
+<br>
+
+### 📄 License
 
 MIT License © [wizenard](https://github.com/wizenard)
+
+<br>
+
+<img src="https://img.shields.io/badge/Made_with-💜-purple?style=for-the-badge" alt="Made with love">
 
 </div>
