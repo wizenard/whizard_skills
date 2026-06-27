@@ -134,6 +134,42 @@ Use $ponytail-gain to see code/cost/speed savings
 
 ---
 
+### [rtk](./rtk/)
+
+CLI 代理工具，可将常见开发命令的 LLM token 消耗降低 60-90%。基于 [rtk-ai/rtk](https://github.com/rtk-ai/rtk)（66k+ stars）。
+
+#### 功能说明
+
+在 AI 编程工具执行命令前，自动将 Bash 命令重写为更紧凑的等效命令。单个 Rust 二进制文件，零依赖，<10ms 开销。常见命令（如 `git status`、`ls`、`cat`）可节省约 80% token。
+
+#### 特性
+
+- **60-90% Token 节省**：git、cargo、docker、AWS 等命令的紧凑输出
+- **14+ AI 工具支持**：Claude Code、Codex、Cursor、Gemini CLI、GitHub Copilot 等
+- **四大优化策略**：智能过滤、分组、截断、去重
+- **元命令**：`rtk gain`（统计）、`rtk discover`（发现未优化命令）、`rtk session`（最近会话）
+
+#### 文件结构
+
+| 文件 | 用途 |
+|------|------|
+| `SKILL.md` | 主指令、安装指南、支持的工具 |
+
+#### 使用示例
+
+```
+# 减少 AI 会话中的 token 使用
+Use $rtk to optimize my command output
+
+# 查看 token 节省统计
+Use $rtk gain to see my savings stats
+
+# 发现未优化的命令
+Use $rtk discover to find commands not yet optimized
+```
+
+---
+
 ## 安装方法
 
 克隆到你的技能目录：
@@ -150,6 +186,7 @@ git clone https://github.com/wizenard/whizard_skills.git /tmp/whizard_skills
 cp -r /tmp/whizard_skills/awesome-design-md ~/.codex/skills/
 cp -r /tmp/whizard_skills/humanizer ~/.codex/skills/
 cp -r /tmp/whizard_skills/ponytail ~/.codex/skills/
+cp -r /tmp/whizard_skills/rtk ~/.codex/skills/
 ```
 
 ## 许可证

@@ -134,6 +134,42 @@ Use $ponytail-gain to see code/cost/speed savings
 
 ---
 
+### [rtk](./rtk/)
+
+CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Based on [rtk-ai/rtk](https://github.com/rtk-ai/rtk) (66k+ stars).
+
+#### What It Does
+
+Automatically rewrites Bash commands to compact equivalents before they reach your LLM context. Single Rust binary, zero dependencies, <10ms overhead. Results in ~80% token savings on common commands like `git status`, `ls`, `cat`.
+
+#### Features
+
+- **60-90% Token Savings**: Compact output for git, cargo, docker, AWS, and more
+- **14+ AI Tool Support**: Claude Code, Codex, Cursor, Gemini CLI, GitHub Copilot, and more
+- **Four Optimization Strategies**: Smart filtering, grouping, truncation, deduplication
+- **Meta Commands**: `rtk gain` (stats), `rtk discover` (find unoptimized commands), `rtk session` (recent sessions)
+
+#### Included Files
+
+| File | Purpose |
+|------|---------|
+| `SKILL.md` | Main instructions, installation guide, supported tools |
+
+#### Use Cases
+
+```
+# Reduce token usage in AI sessions
+Use $rtk to optimize my command output
+
+# Check token savings
+Use $rtk gain to see my savings stats
+
+# Find unoptimized commands
+Use $rtk discover to find commands not yet optimized
+```
+
+---
+
 ## Installation
 
 Clone into your skills directory:
@@ -150,6 +186,7 @@ git clone https://github.com/wizenard/whizard_skills.git /tmp/whizard_skills
 cp -r /tmp/whizard_skills/awesome-design-md ~/.codex/skills/
 cp -r /tmp/whizard_skills/humanizer ~/.codex/skills/
 cp -r /tmp/whizard_skills/ponytail ~/.codex/skills/
+cp -r /tmp/whizard_skills/rtk ~/.codex/skills/
 ```
 
 ## License
