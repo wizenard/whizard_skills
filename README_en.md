@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/badge/Codex-Ready-10a37f?style=flat-square&logo=openai&logoColor=white" alt="Codex">
   <img src="https://img.shields.io/badge/Claude_Code-Ready-d97757?style=flat-square&logo=anthropic&logoColor=white" alt="Claude">
   <img src="https://img.shields.io/badge/OpenCode-Ready-22c55e?style=flat-square&logo=terminal&logoColor=white" alt="OpenCode">
-  <img src="https://img.shields.io/badge/8-Skills-7c3aed?style=flat-square&logo=sparkles&logoColor=white" alt="Skills">
+  <img src="https://img.shields.io/badge/9-Skills-7c3aed?style=flat-square&logo=sparkles&logoColor=white" alt="Skills">
 </p>
 
 <p>
@@ -124,94 +124,40 @@ CLI proxy, supports git/docker/AWS 14+ tools
 <tr>
 <td align="center" width="25%">
 
-<a href="./matt-pocock-engineering/">
+<a href="./pixel2style2pixel/">
 
-<img src="https://img.shields.io/badge/matt--pocock--engineering-0891b2?style=for-the-badge&logo=hammer&logoColor=white" alt="matt-pocock-engineering">
+<img src="https://img.shields.io/badge/pixel2style2pixel-9b59b6?style=for-the-badge&logo=python&logoColor=white" alt="pixel2style2pixel">
 
 </a>
 
-**17+ Engineering Skills**
+**Image-to-Image Translation**
 
-Alignment · TDD · Design
+Encoding · Super-Res · Frontalization · Synthesis
 
 ---
 
-Professional AI-assisted development practices
+StyleGAN encoder framework, CVPR 2021 official
 
 <small>
 
-[`View Skill`](./matt-pocock-engineering/)
+[`View Skill`](./pixel2style2pixel/) · [`Model Reference`](./pixel2style2pixel/references/models.md)
 
 </small>
 
 </td>
 <td align="center" width="25%">
 
-<a href="./ui-layouts/">
-
-<img src="https://img.shields.io/badge/ui--layouts-d946ef?style=for-the-badge&logo=react&logoColor=white" alt="ui-layouts">
-
-</a>
-
-**80+ Creative Components**
-
-Animation · Visual · Interactive
-
----
-
-Tailwind + Framer Motion copy-paste components
-
-<small>
-
-[`View Skill`](./ui-layouts/) · [`Component Catalog`](./ui-layouts/references/components.md)
-
-</small>
+<!-- Placeholder for future skill -->
 
 </td>
 <td align="center" width="25%">
 
-<a href="./gsap/">
-
-<img src="https://img.shields.io/badge/gsap-88ce02?style=for-the-badge&logo=javascript&logoColor=black" alt="gsap">
-
-</a>
-
-**Professional Animation**
-
-Scroll · SVG · Text · Timeline
-
----
-
-Industry-standard JS animation, high-performance
-
-<small>
-
-[`View Skill`](./gsap/) · [`Plugin Reference`](./gsap/references/plugins.md)
-
-</small>
+<!-- Placeholder for future skill -->
 
 </td>
 <td align="center" width="25%">
 
-<a href="./react-bits/">
-
-<img src="https://img.shields.io/badge/react--bits-ff6b6b?style=for-the-badge&logo=react&logoColor=white" alt="react-bits">
-
-</a>
-
-**130+ Animated Components**
-
-Text · Background · UI · Effects
-
----
-
-Largest React animation library, 4 variants ready to use
-
-<small>
-
-[`View Skill`](./react-bits/) · [`Component Catalog`](./react-bits/references/components.md)
-
-</small>
+<!-- Placeholder for future skill -->
 
 </td>
 </tr>
@@ -249,6 +195,7 @@ cp -r /tmp/whizard_skills/matt-pocock-engineering ~/.codex/skills/
 cp -r /tmp/whizard_skills/ui-layouts ~/.codex/skills/
 cp -r /tmp/whizard_skills/gsap ~/.codex/skills/
 cp -r /tmp/whizard_skills/react-bits ~/.codex/skills/
+cp -r /tmp/whizard_skills/pixel2style2pixel ~/.codex/skills/
 ```
 
 </details>
@@ -370,6 +317,20 @@ Use $react-bits to add animated text and background effects to my landing page
 
 </td>
 </tr>
+<tr>
+<td align="center">
+
+`🔬 pSp`
+
+</td>
+<td>
+
+```bash
+Use $pixel2style2pixel to train a StyleGAN encoder for face frontalization
+```
+
+</td>
+</tr>
 </table>
 
 ---
@@ -380,11 +341,11 @@ Use $react-bits to add animated text and background effects to my landing page
 
 <table>
 <tr>
-<td align="center"><b>8</b><br>Skills</td>
+<td align="center"><b>9</b><br>Skills</td>
 <td align="center"><b>73+</b><br>Brand Systems</td>
 <td align="center"><b>130+</b><br>Animated Components</td>
 <td align="center"><b>33</b><br>AI Patterns</td>
-<td align="center"><b>20+</b><br>GSAP Plugins</td>
+<td align="center"><b>CVPR</b><br>2021 Paper</td>
 </tr>
 </table>
 

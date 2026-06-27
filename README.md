@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/badge/Codex-Ready-10a37f?style=flat-square&logo=openai&logoColor=white" alt="Codex">
   <img src="https://img.shields.io/badge/Claude_Code-Ready-d97757?style=flat-square&logo=anthropic&logoColor=white" alt="Claude">
   <img src="https://img.shields.io/badge/OpenCode-Ready-22c55e?style=flat-square&logo=terminal&logoColor=white" alt="OpenCode">
-  <img src="https://img.shields.io/badge/8-Skills-7c3aed?style=flat-square&logo=sparkles&logoColor=white" alt="Skills">
+  <img src="https://img.shields.io/badge/9-Skills-7c3aed?style=flat-square&logo=sparkles&logoColor=white" alt="Skills">
 </p>
 
 <p>
@@ -124,94 +124,40 @@ CLI 代理，支持 git/docker/AWS 等 14+ 工具
 <tr>
 <td align="center" width="25%">
 
-<a href="./matt-pocock-engineering/">
+<a href="./pixel2style2pixel/">
 
-<img src="https://img.shields.io/badge/matt--pocock--engineering-0891b2?style=for-the-badge&logo=hammer&logoColor=white" alt="matt-pocock-engineering">
+<img src="https://img.shields.io/badge/pixel2style2pixel-9b59b6?style=for-the-badge&logo=python&logoColor=white" alt="pixel2style2pixel">
 
 </a>
 
-**17+ 工程技能**
+**图像到图像翻译**
 
-对齐 · TDD · 设计
+编码 · 超分 · 正面化 · 合成
 
 ---
 
-专业的 AI 辅助开发工程实践
+StyleGAN 编码框架，CVPR 2021 官方实现
 
 <small>
 
-[`查看技能`](./matt-pocock-engineering/)
+[`查看技能`](./pixel2style2pixel/) · [`模型参考`](./pixel2style2pixel/references/models.md)
 
 </small>
 
 </td>
 <td align="center" width="25%">
 
-<a href="./ui-layouts/">
-
-<img src="https://img.shields.io/badge/ui--layouts-d946ef?style=for-the-badge&logo=react&logoColor=white" alt="ui-layouts">
-
-</a>
-
-**80+ 创意组件**
-
-动画 · 视觉 · 交互
-
----
-
-Tailwind + Framer Motion 即用型组件
-
-<small>
-
-[`查看技能`](./ui-layouts/) · [`组件目录`](./ui-layouts/references/components.md)
-
-</small>
+<!-- Placeholder for future skill -->
 
 </td>
 <td align="center" width="25%">
 
-<a href="./gsap/">
-
-<img src="https://img.shields.io/badge/gsap-88ce02?style=for-the-badge&logo=javascript&logoColor=black" alt="gsap">
-
-</a>
-
-**专业级动画**
-
-滚动 · SVG · 文本 · 时间轴
-
----
-
-行业标准 JS 动画库，高性能跨浏览器
-
-<small>
-
-[`查看技能`](./gsap/) · [`插件参考`](./gsap/references/plugins.md)
-
-</small>
+<!-- Placeholder for future skill -->
 
 </td>
 <td align="center" width="25%">
 
-<a href="./react-bits/">
-
-<img src="https://img.shields.io/badge/react--bits-ff6b6b?style=for-the-badge&logo=react&logoColor=white" alt="react-bits">
-
-</a>
-
-**130+ 动画组件**
-
-文字 · 背景 · UI · 动效
-
----
-
-最大的 React 动画组件库，4 种变体即用
-
-<small>
-
-[`查看技能`](./react-bits/) · [`组件目录`](./react-bits/references/components.md)
-
-</small>
+<!-- Placeholder for future skill -->
 
 </td>
 </tr>
@@ -249,6 +195,7 @@ cp -r /tmp/whizard_skills/matt-pocock-engineering ~/.codex/skills/
 cp -r /tmp/whizard_skills/ui-layouts ~/.codex/skills/
 cp -r /tmp/whizard_skills/gsap ~/.codex/skills/
 cp -r /tmp/whizard_skills/react-bits ~/.codex/skills/
+cp -r /tmp/whizard_skills/pixel2style2pixel ~/.codex/skills/
 ```
 
 </details>
@@ -370,6 +317,20 @@ Use $react-bits to add animated text and background effects to my landing page
 
 </td>
 </tr>
+<tr>
+<td align="center">
+
+`🔬 pSp`
+
+</td>
+<td>
+
+```bash
+Use $pixel2style2pixel to train a StyleGAN encoder for face frontalization
+```
+
+</td>
+</tr>
 </table>
 
 ---
@@ -380,11 +341,11 @@ Use $react-bits to add animated text and background effects to my landing page
 
 <table>
 <tr>
-<td align="center"><b>8</b><br>技能数量</td>
+<td align="center"><b>9</b><br>技能数量</td>
 <td align="center"><b>73+</b><br>品牌设计系统</td>
 <td align="center"><b>130+</b><br>动画组件</td>
 <td align="center"><b>33</b><br>AI 模式检测</td>
-<td align="center"><b>20+</b><br>GSAP 插件</td>
+<td align="center"><b>CVPR</b><br>2021 论文</td>
 </tr>
 </table>
 
