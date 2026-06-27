@@ -170,6 +170,43 @@ Use $rtk discover to find commands not yet optimized
 
 ---
 
+### [matt-pocock-engineering](./matt-pocock-engineering/)
+
+Summary of Matt Pocock's engineering skills for professional AI-assisted development. Based on [mattpocock/skills](https://github.com/mattpocock/skills) (148k+ stars).
+
+#### What It Does
+
+Provides a comprehensive overview of the skill system: core philosophy (alignment, domain language, feedback loops, code design), skill categories (Engineering, Productivity, Misc), invocation types (User-invoked vs Model-invoked), and key skills like `/grill-me`, `/tdd`, `/diagnosing-bugs`, `/improve-codebase-architecture`.
+
+#### Features
+
+- **Four Failure Modes**: Agent misalignment, verbosity, broken code, ball-of-mud architecture
+- **17+ Skills Covered**: Engineering, Productivity, and Misc categories
+- **Invocation Rules**: User-invoked (orchestration) vs Model-invoked (reusable discipline)
+- **Key Concepts**: Alignment before coding, shared domain language (CONTEXT.md), TDD, code design
+- **Quick Reference**: One-glance command cheat sheet
+
+#### Included Files
+
+| File | Purpose |
+|------|---------|
+| `SKILL.md` | Main instructions, skill catalog, installation guide |
+
+#### Use Cases
+
+```
+# Learn professional AI engineering workflows
+Use $matt-pocock-engineering to understand how to align with agents before coding
+
+# Apply TDD discipline
+Use $matt-pocock-engineering to show me the TDD workflow
+
+# Improve codebase architecture
+Use $matt-pocock-engineering to explain /improve-codebase-architecture
+```
+
+---
+
 ## Installation
 
 Clone into your skills directory:

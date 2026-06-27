@@ -170,6 +170,43 @@ Use $rtk discover to find commands not yet optimized
 
 ---
 
+### [matt-pocock-engineering](./matt-pocock-engineering/)
+
+Matt Pocock 工程技能摘要，用于专业的 AI 辅助开发。基于 [mattpocock/skills](https://github.com/mattpocock/skills)（148k+ stars）。
+
+#### 功能说明
+
+全面介绍技能系统：核心理念（对齐、领域语言、反馈循环、代码设计）、技能分类（Engineering、Productivity、Misc）、调用类型（User-invoked vs Model-invoked），以及关键技能如 `/grill-me`、`/tdd`、`/diagnosing-bugs`、`/improve-codebase-architecture`。
+
+#### 特性
+
+- **四大失败模式**：Agent 不对齐、啰嗦、代码不工作、烂泥球架构
+- **17+ 技能覆盖**：Engineering、Productivity、Misc 三大类
+- **调用规则**：User-invoked（编排）vs Model-invoked（可复用纪律）
+- **核心概念**：编码前对齐、共享领域语言（CONTEXT.md）、TDD、代码设计
+- **快速参考**：一目了然的命令速查表
+
+#### 文件结构
+
+| 文件 | 用途 |
+|------|------|
+| `SKILL.md` | 主指令、技能目录、安装指南 |
+
+#### 使用示例
+
+```
+# 学习专业的 AI 工程工作流
+Use $matt-pocock-engineering to understand how to apply TDD discipline
+
+# 改进代码库架构
+Use $matt-pocock-engineering to explain /improve-codebase-architecture
+
+# 了解对齐工作流
+Use $matt-pocock-engineering to show me the alignment workflow
+```
+
+---
+
 ## 安装方法
 
 克隆到你的技能目录：
