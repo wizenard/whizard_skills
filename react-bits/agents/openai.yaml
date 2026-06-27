@@ -1,0 +1,4 @@
+interface:
+  display_name: "React Bits"
+  short_description: "Add 130+ animated React components — text effects, backgrounds, and UI animations"
+  default_prompt: "Help me add animated components using react-bits"

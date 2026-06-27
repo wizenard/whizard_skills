@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/badge/Codex-Ready-10a37f?style=flat-square&logo=openai&logoColor=white" alt="Codex">
   <img src="https://img.shields.io/badge/Claude_Code-Ready-d97757?style=flat-square&logo=anthropic&logoColor=white" alt="Claude">
   <img src="https://img.shields.io/badge/OpenCode-Ready-22c55e?style=flat-square&logo=terminal&logoColor=white" alt="OpenCode">
-  <img src="https://img.shields.io/badge/7-Skills-7c3aed?style=flat-square&logo=sparkles&logoColor=white" alt="Skills">
+  <img src="https://img.shields.io/badge/8-Skills-7c3aed?style=flat-square&logo=sparkles&logoColor=white" alt="Skills">
 </p>
 
 <p>
@@ -193,7 +193,25 @@ Tailwind + Framer Motion 即用型组件
 </td>
 <td align="center" width="25%">
 
-<!-- Placeholder for future skill -->
+<a href="./react-bits/">
+
+<img src="https://img.shields.io/badge/react--bits-ff6b6b?style=for-the-badge&logo=react&logoColor=white" alt="react-bits">
+
+</a>
+
+**130+ 动画组件**
+
+文字 · 背景 · UI · 动效
+
+---
+
+最大的 React 动画组件库，4 种变体即用
+
+<small>
+
+[`查看技能`](./react-bits/) · [`组件目录`](./react-bits/references/components.md)
+
+</small>
 
 </td>
 </tr>
@@ -230,6 +248,7 @@ cp -r /tmp/whizard_skills/rtk ~/.codex/skills/
 cp -r /tmp/whizard_skills/matt-pocock-engineering ~/.codex/skills/
 cp -r /tmp/whizard_skills/ui-layouts ~/.codex/skills/
 cp -r /tmp/whizard_skills/gsap ~/.codex/skills/
+cp -r /tmp/whizard_skills/react-bits ~/.codex/skills/
 ```
 
 </details>
@@ -337,6 +356,20 @@ Use $gsap to create a scroll-triggered animation with ScrollTrigger
 
 </td>
 </tr>
+<tr>
+<td align="center">
+
+`✨ react-bits`
+
+</td>
+<td>
+
+```bash
+Use $react-bits to add animated text and background effects to my landing page
+```
+
+</td>
+</tr>
 </table>
 
 ---
@@ -347,9 +380,9 @@ Use $gsap to create a scroll-triggered animation with ScrollTrigger
 
 <table>
 <tr>
-<td align="center"><b>7</b><br>技能数量</td>
+<td align="center"><b>8</b><br>技能数量</td>
 <td align="center"><b>73+</b><br>品牌设计系统</td>
-<td align="center"><b>80+</b><br>React 组件</td>
+<td align="center"><b>130+</b><br>动画组件</td>
 <td align="center"><b>33</b><br>AI 模式检测</td>
 <td align="center"><b>20+</b><br>GSAP 插件</td>
 </tr>
